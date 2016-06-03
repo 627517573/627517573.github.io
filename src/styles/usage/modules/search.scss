@@ -95,8 +95,8 @@ section{
                                         h3{
                                             font-weight: 100;
                                             font-size: .14rem;
-                                            height: .28rem;
-                                            line-height: .36rem;
+                                            height: .34rem;
+                                            line-height: .34rem;
                                             text-indent: .1rem;
                                             
                                         }
@@ -105,7 +105,7 @@ section{
                                             height:100%;
                                             @include flexbox();
                                             @include flex-direction(row);
-                                            padding-top:.04rem;
+                                            
                                             li{
                                                 height:.14rem;
                                                 line-height: .12rem;
