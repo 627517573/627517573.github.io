@@ -16,7 +16,7 @@ SPA.defineView('home',{
 			var _indexScroll=this.widgets.indexScroll;
 			_indexScroll.options.scrollX=true;
 			_indexScroll.options.scrollY=false;
-			//console.log(this.widgets.indexScroll);
+			//console.log(this.widgets.indexScroll); 
 			
 			//数据
 			var vm=this.getVM();
