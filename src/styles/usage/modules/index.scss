@@ -453,9 +453,8 @@
                   font-weight: normal;
                 }
                 i {
-                    margin-top:.09rem;
                     font-size: .18rem;
-                    
+                    line-height: .31rem;
                 }
                 &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4){
                     i{
@@ -465,7 +464,7 @@
                 &:nth-child(5){
                     i{
                         font-size: .18rem;
-                        margin-top:.12rem;
+                        
                     }
                 }
                 &:nth-child(1),&:nth-child(3),&:nth-child(4),&:nth-child(5){
@@ -476,14 +475,14 @@
                     }
                 }
                 &:nth-child(2){
+                    padding-top:.07rem;
                     i{
-                        margin-top:.15rem;
                         font-size: .22rem;
                     }
                    b{
                         font-size: .16rem;
                         letter-spacing: .02rem;
-                        @include transform(scale(0.74) translate(5%,-52%));
+                        @include transform(scale(0.74) translate(5%,-50%));
                     }
                 }
                 &.active{
