@@ -475,12 +475,7 @@
                     }
                 }
                 &:nth-child(2){
-                    padding-top:.1rem;
-                    b{
-                        font-size: .16rem;
-                        letter-spacing: .02rem;
-                        @include transform(scale(0.74) translate(5%,-46%));
-                    }
+                    
                 }
                 &.active{
                     color:#FC2A45;

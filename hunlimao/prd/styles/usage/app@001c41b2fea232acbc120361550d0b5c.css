@@ -894,8 +894,6 @@ spa-view{position:absolute;z-index:0;top:0;left:0;bottom:0;width:100%;background
 .wrap footer ul li:nth-child(1) i,.wrap footer ul li:nth-child(2) i,.wrap footer ul li:nth-child(3) i,.wrap footer ul li:nth-child(4) i{font-size:.2rem}
 .wrap footer ul li:nth-child(5) i{font-size:.18rem}
 .wrap footer ul li:nth-child(1) b,.wrap footer ul li:nth-child(2) b,.wrap footer ul li:nth-child(3) b,.wrap footer ul li:nth-child(4) b,.wrap footer ul li:nth-child(5) b{font-size:.16rem;letter-spacing:.02rem;-webkit-transform:scale(0.74) translate(5%,-34%);transform:scale(0.74) translate(5%,-34%)}
-.wrap footer ul li:nth-child(2){padding-top:.1rem}
-.wrap footer ul li:nth-child(2) b{font-size:.16rem;letter-spacing:.02rem;-webkit-transform:scale(0.74) translate(5%,-46%);transform:scale(0.74) translate(5%,-46%)}
 .wrap footer ul li.active{color:#fc2a45}
 div.my{color:red}
 header li:first-child img{width:.2rem;height:.2rem}
