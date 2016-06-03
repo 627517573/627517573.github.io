@@ -1,10 +1,10 @@
 var indexTpl = require('../tpl/index.string');
 //var IScroll = require('../lib/iscroll-probe.js');//spa中包含iscroll框架了
-window.addEventListener('touchmove',function(ev){
-	if (e.target.tagName.toUpperCase() !== 'IFRAME') {
-        e.preventDefault();
-    }
-},false);
+//window.addEventListener('touchmove',function(ev){
+//	if (e.target.tagName.toUpperCase() !== 'IFRAME') {
+//      e.preventDefault();
+//  }
+//},false);
 SPA.defineView('index', {
 	html: indexTpl,
 	
