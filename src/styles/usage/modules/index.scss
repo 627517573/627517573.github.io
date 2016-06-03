@@ -467,24 +467,14 @@
                         
                     }
                 }
-                &:nth-child(1),&:nth-child(3),&:nth-child(4),&:nth-child(5){
+                &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4),&:nth-child(5){
                     b{
                         font-size: .16rem;
                         letter-spacing: .02rem;
                         @include transform(scale(0.74) translate(5%,-34%));
                     }
                 }
-                &:nth-child(2){
-                    
-                    i{
-                        font-size: .22rem;
-                    }
-                   b{
-                        font-size: .16rem;
-                        letter-spacing: .02rem;
-                        @include transform(scale(0.74) translate(5%,-46%));
-                    }
-                }
+               
                 &.active{
                     color:#FC2A45;
                 }
