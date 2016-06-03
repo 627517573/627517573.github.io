@@ -1,0 +1,197 @@
+	<!--header-->
+	<header>
+		<ul>
+			<li>
+				<b>深圳
+					<a href="javascript:void(0);">
+						<img src="/hunlimao/images/msg.jpg" />
+					</a>
+				</b>
+			</li>
+			<li>
+				<i>
+					<img src='/hunlimao/images/logo.jpg' />
+				</i>
+			</li>
+			<li>
+				<i>
+					<img src='/hunlimao/images/scan.png' />
+				</i>
+			</li>
+		</ul>
+	</header>
+	<!--section-->
+	<section spa-widget="scroll">
+		<div>
+			<!--index-swiper-->
+			<div class="swiper-container" id="index-swiper">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide">
+						<img src="/hunlimao/images/s1.jpg" />
+			        </div>
+			        <div class="swiper-slide">
+						<img src="/hunlimao/images/s2.jpg" />
+			        </div>
+			        <div class="swiper-slide">
+						<img src="/hunlimao/images/s3.jpg" />
+			        </div>
+			    </div>
+			    <div class="swiper-pagination" id="pagination1"></div>
+			</div>
+			<!--sectionNav-->
+			<div class="sectionNav">
+				<ul>
+					<li>
+						<i>
+							<img src='/hunlimao/images/entry_photography.png' />
+						</i>
+						<b>
+							婚纱摄影
+						</b>
+					</li>
+					<li>
+						<i>
+							<img src='/hunlimao/images/entry_hotel.png' />
+						</i>
+						<b>
+							婚宴酒店
+						</b>
+					</li>
+					<li>
+						<i>
+							<img src='/hunlimao/images/entry_steward.png' />
+						</i>
+						<b>
+							结婚管家
+						</b>
+					</li>
+					<li>
+						<i>
+							<img src='/hunlimao/images/entry_wx.png' />
+						</i>
+						<b>
+							微信喜帖
+						</b>
+					</li>
+				</ul>
+			</div>
+			<!--sectionNew-->
+			<div class="sectionNew" >
+				<div>
+					<ul>
+						<li></li>
+						<li>最新套餐</li>
+						<li>更多</li>
+					</ul>
+					<div class="scroll" spa-widget="scroll" data-scroll-id="indexScroll">	   
+						<div>
+							<div ms-repeat-value="livelist">
+								<ul>
+									<li ms-text="value.title">
+										
+									</li>
+									<li ms-text="value.msg">
+										
+									</li>
+									<li>
+										<i>￥</i><b ms-text="value.price">4999</b>
+									</li>
+								</ul>
+					        </div>
+					        <!--<div>
+								<ul>
+									<li>
+										赫拉恋城
+									</li>
+									<li>
+										仅剩18套
+									</li>
+									<li>
+										<i>￥</i><b>4999</b>
+									</li>
+								</ul>
+					        </div>
+					        <div>
+								<ul>
+									<li>
+										赫拉恋城
+									</li>
+									<li>
+										仅剩18套
+									</li>
+									<li>
+										<i>￥</i><b>4999</b>
+									</li>
+								</ul>
+					        </div>-->
+						</div>
+					        
+					</div>
+				</div>
+				
+			</div>
+			<div class="sectionNew sec">
+				<ul>
+					<li></li>
+					<li>婚宴酒店</li>
+					<li>更多</li>
+				</ul>
+				<div class="sec-bom">
+						<div class="swiper-container" id="index-swiper2">
+						    <div class="swiper-wrapper">
+						        <div class="swiper-slide"  ms-repeat-value="livelist1">
+						        	<div class="shang">
+						        		<img ms-src="value.src"/>
+								        <ul class="ul1">
+											<li></li>
+											<li ms-text="value.title"></li>
+											<li ms-text="value.amount"></li>
+											<li></li>
+										</ul>
+										<ul class="ul2">
+											<li></li>
+											<li ms-text="value.name">陆琪</li>
+											<li ms-text="value.msg">摄于</li>
+											<li ms-text="value.address">赫拉恋城</li>
+										</ul>
+						        	</div>
+						        </div>
+						        
+						    </div>
+						</div>
+				</div>
+			</div>
+			<div class="sectionNew sec1">
+				<ul>
+					<li></li>
+					<li>婚宴酒店</li>
+					<li>更多</li>
+				</ul>
+				<div class="sec-bom">
+						<div class="swiper-container" id="index-swiper3">
+						    <div class="swiper-wrapper">
+						        <div class="swiper-slide" ms-repeat-value="livelist2">
+						        	<div class="shang">
+						        		<img  ms-src="value.src"/>
+								        <ul class="ul1">
+											<li></li>
+											<li ms-text="value.title">名宴婚宴专门店</li>
+											<li></li>
+											<li></li>
+										</ul>
+										<ul class="ul2">
+											<li></li>
+											<li ms-text="value.address">罗湖区</li>
+											<li ms-text="value.msg">1-60桌</li>
+											<li ms-text="value.amount">￥3888-6388/桌</li>
+											<li></li>
+										</ul>
+						        	</div>
+						        </div>
+						    </div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	

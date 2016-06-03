@@ -1,0 +1,12 @@
+$font-heiti-light: Heiti SC Light, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+$font-heiti-medium: Heiti SC Medium, Heiti SC Light, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+
+@font-face {
+  font-family: yofont;
+  src: url("/hunlimao/images/iconfont/iconfont.woff") format("woff"), url("/hunlimao/images/iconfont/iconfont.ttf") format("truetype");
+}
+
+//@font-face {
+//font-family: yofont;
+//src: url("/hunlimao/images/iconfont/iconfont-menu.woff") format("woff"), url("/hunlimao/images/iconfont/iconfont-menu.ttf") format("truetype");
+//}

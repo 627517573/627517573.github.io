@@ -1,0 +1,268 @@
+header{
+    li{
+        &:first-child{
+            img{
+                width:.2rem;
+                height:.2rem;
+            }
+        }
+        &#last{
+            img{
+                width:.14rem !important;
+                height:.16rem !important;
+            }
+        }
+    }
+}
+nav {
+      height: .35rem;
+      background: #fff;
+      ul {
+        width: 100%;
+        height: 100%;
+        @include flexbox();
+        li {
+          @include flex();
+          height: 100%;
+          text-align: center;
+          line-height: .35rem;
+          @include box-sizing(border-box);
+          &.active-search {
+            color: #FF586D;
+            border-bottom: solid 0.02rem #FF586D;
+          }
+        }
+      }
+    }
+section{
+    div{
+        div#wrap-swiper{
+            width:100%;
+            div{
+                &#wrap3{
+                    div#search-swiper{
+                        width:100%;
+                        height:1.49rem;
+                        margin-bottom: .09rem;
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                        .swiper-pagination-bullet {
+                                width: .06rem;
+                                height: .06rem;
+                                display: inline-block;
+                                background: #fff;
+                                @include border-radius(50%);
+                                opacity: 1;
+                            }
+                             .swiper-pagination-bullet-active {
+                                opacity: 1;
+                                background: #FF7386;
+                            }
+                            .swiper-pagination-bullet {
+                                margin: -10px 5px;
+                            }
+                    }
+                    div.sectionNew{
+                        width:100%;
+                        height:3.31rem;
+                        .scroll{
+                            padding: 0 .18rem;
+                            height:2.9rem;
+                            div{
+                                width:91%;
+                                height:.54rem;
+                                background:#F6F6F6;
+                                @include border-radius(2%);
+                                margin-bottom:.19rem;
+                                @include flexbox();
+                                div{
+                                    height:.54rem;
+                                    &.s-left{
+                                        width:.54rem;
+                                        margin:0;
+                                        img{
+                                            width:.54rem;
+                                            height:.54rem;
+                                        }
+                                    }
+                                    &.s-right{
+                                        @include flex();
+                                        @include flexbox();
+                                        @include flex-direction(column);
+                                        margin:0;
+                                        h3{
+                                            font-weight: 100;
+                                            font-size: .14rem;
+                                            height: .28rem;
+                                            line-height: .36rem;
+                                            text-indent: .1rem;
+                                            margin-bottom: .04rem;
+                                        }
+                                        ul.sea-ul{
+                                            width:100%;
+                                            height:100%;
+                                            @include flexbox();
+                                            @include flex-direction(row);
+                                            li{
+                                                height:.14rem;
+                                                line-height: .12rem;
+                                                font-size: .12rem;
+                                                color:#d5d5d5;
+                                                &:nth-child(1){
+                                                    width:.4rem !important;
+                                                    background: none;
+                                                    text-indent: -(0.5rem);
+                                                }
+                                                &:nth-child(2){
+                                                   width:.4rem;
+                                                    background: none;
+                                                    text-indent: -1.2rem;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        
+                    }
+                    div.sectionNew2{
+                        height:4rem;
+                        margin-bottom: 0;
+                    }
+                }
+                &#wrap4{
+                    background: #fff;
+                    div.news{
+                        padding:0 .18rem;
+                        @include box-sizing(border-box);
+                        div.m-news{
+                            width:100%;
+                            height:3.06rem;
+                            padding:.09rem 0 0 0;
+                            @include border(1px 0 0 0, #ddd);
+                            @include box-sizing(border-box);
+                            ul{
+                                @include flexbox();
+                                width:100%;
+                                height:.37rem;
+                                li{
+                                    @include flexbox();
+                                    @include align-items(center);
+                                    
+                                    &:nth-child(1){
+                                        width:.23rem;
+                                        img{
+                                            width:.23rem;
+                                            height:.23rem;
+                                        }
+                                    }
+                                    &:nth-child(2){
+                                        @include flex();
+                                        text-align: left;
+                                        font-size: .14rem;
+                                        text-indent: .1rem;
+                                    }
+                                    &:nth-child(3){
+                                        @include flex();
+                                        text-align: right;
+                                        font-size: .12rem;
+                                        text-indent: .9rem;
+                                        color:#a3a3a3;
+                                    }
+                                }
+                            }
+                            div{
+                                height:1.5rem;
+                                width:100%;
+                                img{
+                                    width:100%;
+                                    height:100%;
+                                }
+                            }
+                            h3{
+                                height:.44rem;
+                                line-height: .44rem;
+                                font-weight: 100;
+                                font-size: .14rem;
+                            }
+                            p.mui-ellipsis-2{
+                                display: -webkit-box;
+                                overflow: hidden;
+                                white-space: normal !important;
+                                text-overflow: ellipsis;
+                                word-wrap: break-word;
+                                -webkit-line-clamp: 2;
+                                @include flex-direction(column);
+                                color:#a2a2a2;
+                                font-size: .06rem;
+                            }
+                            ul.m-msg{
+                                @include flexbox();
+                                width:100%;
+                                height:.3rem;
+                                color:#a3a3a3;
+                                li{
+                                    @include flexbox();
+                                    @include align-items(center);
+                                    &:nth-child(1){
+                                        width:.37rem;
+                                        font-size: .12rem;
+                                    }
+                                    &:nth-child(2){
+                                        @include flex();
+                                        text-align: right;
+                                        font-size: .12rem;
+                                        text-indent: 2.4rem;
+                                        position: relative;
+                                        img{
+                                            position: absolute;
+                                            width:.12rem;
+                                            height:.1rem;
+                                               left: 2.25rem;
+                                            top: .1rem;
+                                        }
+                                    }
+                                    &:nth-child(3){
+                                        width:.5rem;
+                                        font-size: .12rem;
+                                        text-indent: 1.24rem;
+                                        position: relative;
+                                        img{
+                                            position: absolute;
+                                            width:.12rem;
+                                            height:.1rem;
+                                            left: 1.1rem;
+                                            top: .1rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

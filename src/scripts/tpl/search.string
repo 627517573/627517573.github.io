@@ -1,0 +1,259 @@
+<!--header-->
+	<header>
+		<ul>
+			<li>
+				<b>
+					<img src="/hunlimao/images/ic_search.png" />
+				</b>
+			</li>
+			<li>
+				<i>
+					社区
+				</i>
+			</li>
+			<li id="last">
+				<i>
+					<img src='/hunlimao/images/ic_person.png' />
+				</i>
+			</li>
+		</ul>
+	</header>
+	<!--nav-->
+	<nav id="index-nav">
+	  <ul>
+	    <li class="active-search" action-type="search.swiper">发现</li>
+	    <li action-type="search.swiper">推荐</li>
+	  </ul>
+	</nav>
+	<!--section-->
+	<section spa-widget="scroll">
+		<div>
+			<div class="swiper-container" id="wrap-swiper">
+				<div class="swiper-wrapper">
+			    	<div class="swiper-slide" id="wrap3">
+				        <div>
+				          	<!--search-swiper-->
+							<div class="swiper-container" id="search-swiper">
+							    <div class="swiper-wrapper">
+							        
+							        <div class="swiper-slide">
+										<img src="/hunlimao/images/s2.jpg" />
+							        </div>
+							        <div class="swiper-slide">
+										<img src="/hunlimao/images/s3.jpg" />
+							        </div>
+							    </div>
+							    <div class="swiper-pagination" id="pagination-search"></div>
+							</div>
+							<!--search-con-->
+							<div class="sectionNew" >
+								<div>
+									<ul>
+										<li></li>
+										<li>推荐话题</li>
+										<li></li>
+									</ul>
+									<div class="scroll">	   
+										<div>
+											<div class="s-left">
+												<img src="/hunlimao/images/s-left.png">
+											</div>
+											<div class="s-right">
+												<h3>情感分享</h3>
+												<ul class="sea-ul">
+													<li>讲述情感故事</li>
+													<li>交流热门话题</li>
+												</ul>
+											</div>
+										</div> 
+										<div>
+											<div class="s-left">
+												<img src="/hunlimao/images/s-left1.png">
+											</div>
+											<div class="s-right">
+												<h3>情感分享</h3>
+												<ul class="sea-ul">
+													<li>讲述情感故事</li>
+													<li>交流热门话题</li>
+												</ul>
+											</div>
+										</div>  
+										<div>
+											<div class="s-left">
+												<img src="/hunlimao/images/s-left2.png">
+											</div>
+											<div class="s-right">
+												<h3>情感分享</h3>
+												<ul class="sea-ul">
+													<li>讲述情感故事</li>
+													<li>交流热门话题</li>
+												</ul>
+											</div>
+										</div>  
+										<div>
+											<div class="s-left">
+												<img src="/hunlimao/images/s-left3.png">
+											</div>
+											<div class="s-right">
+												<h3>情感分享</h3>
+												<ul class="sea-ul">
+													<li>讲述情感故事</li>
+													<li>交流热门话题</li>
+												</ul>
+											</div>
+										</div>  
+										
+									</div>
+									
+								</div>
+							</div>
+							<div class="sectionNew sectionNew2" >
+								<div>
+									<ul>
+										<li></li>
+										<li>热门话题</li>
+										<li></li>
+									</ul>
+									<div class="scroll scroll2">
+										<div>
+											<div class="s-left">
+												<img src="/hunlimao/images/s-left2.png">
+											</div>
+											<div class="s-right">
+												<h3>爱·婚享like</h3>
+												<ul class="sea-ul">
+													<li>讲述情感故事</li>
+													<li>交流热门话题</li>
+												</ul>
+											</div>
+										</div>  
+										<div>
+											<div class="s-left">
+												<img src="/hunlimao/images/s-left3.png">
+											</div>
+											<div class="s-right">
+												<h3>爱·婚享like</h3>
+												<ul class="sea-ul">
+													<li>讲述情感故事</li>
+													<li>交流热门话题</li>
+												</ul>
+											</div>
+										</div>  
+										<div>
+											<div class="s-left">
+												<img src="/hunlimao/images/s-left2.png">
+											</div>
+											<div class="s-right">
+												<h3>爱·婚享like</h3>
+												<ul class="sea-ul">
+													<li>讲述情感故事</li>
+													<li>交流热门话题</li>
+												</ul>
+											</div>
+										</div>  
+										<div>
+											<div class="s-left">
+												<img src="/hunlimao/images/s-left3.png">
+											</div>
+											<div class="s-right">
+												<h3>爱·婚享like</h3>
+												<ul class="sea-ul">
+													<li>讲述情感故事</li>
+													<li>交流热门话题</li>
+												</ul>
+											</div>
+										</div> 
+										<div>
+											<div class="s-left">
+												<img src="/hunlimao/images/s-left2.png">
+											</div>
+											<div class="s-right">
+												<h3>爱·婚享like</h3>
+												<ul class="sea-ul">
+													<li>讲述情感故事</li>
+													<li>交流热门话题</li>
+												</ul>
+											</div>
+										</div> 
+									</div>
+									
+								</div>
+							</div>
+				        </div>
+				    </div>
+			        <div class="swiper-slide" id="wrap4">
+			        	<div class="news">
+			        		<div class="m-news">
+			        			<ul>
+			        				<li><img src="/hunlimao/images/ico1.png"></li>
+			        				<li>婚嫁小秘书</li>
+			        				<li>#备婚策略#</li>
+			        			</ul>
+			        			<div>
+			        				<img src="/hunlimao/images/icoImg.png" />
+			        			</div>
+			        			<h3>如何消减婚礼预算？别说没有提醒你哦！</h3>
+			        			<p class="mui-ellipsis-2">如何消减婚礼预算？别说没有提醒你哦！如何消减婚礼预算？别说没有提醒你哦！如何消减婚礼预算？别说没有提醒你哦！如何消减婚礼预算？别说没有提醒你哦！如何消减婚礼预算？别说没有提醒你哦！</p>
+			        			<ul class="m-msg">
+			        				<li>03-21</li>
+			        				<li>4
+			        					<img src="/hunlimao/images/xin.png">
+			        				</li>
+			        				<li>10
+			        					<img src="/hunlimao/images/xin2.png">
+			        				</li>
+			        			</ul>
+			        		</div>
+			        	</div>
+			        	<div class="news">
+			        		<div class="m-news">
+			        			<ul>
+			        				<li><img src="/hunlimao/images/ico1.png"></li>
+			        				<li>婚嫁小秘书</li>
+			        				<li>#备婚策略#</li>
+			        			</ul>
+			        			<div>
+			        				<img src="/hunlimao/images/icoImg.png" />
+			        			</div>
+			        			<h3>如何消减婚礼预算？别说没有提醒你哦！</h3>
+			        			<p class="mui-ellipsis-2">如何消减婚礼预算？别说没有提醒你哦！如何消减婚礼预算？别说没有提醒你哦！如何消减婚礼预算？别说没有提醒你哦！如何消减婚礼预算？别说没有提醒你哦！如何消减婚礼预算？别说没有提醒你哦！</p>
+			        			<ul class="m-msg">
+			        				<li>03-21</li>
+			        				<li>4
+			        					<img src="/hunlimao/images/xin.png">
+			        				</li>
+			        				<li>10
+			        					<img src="/hunlimao/images/xin2.png">
+			        				</li>
+			        			</ul>
+			        		</div>
+			        	</div>
+			        	<div class="news">
+			        		<div class="m-news">
+			        			<ul>
+			        				<li><img src="/hunlimao/images/ico1.png"></li>
+			        				<li>婚嫁小秘书</li>
+			        				<li>#备婚策略#</li>
+			        			</ul>
+			        			<div>
+			        				<img src="/hunlimao/images/icoImg.png" />
+			        			</div>
+			        			<h3>如何消减婚礼预算？别说没有提醒你哦！</h3>
+			        			<p class="mui-ellipsis-2">如何消减婚礼预算？别说没有提醒你哦！如何消减婚礼预算？别说没有提醒你哦！如何消减婚礼预算？别说没有提醒你哦！如何消减婚礼预算？别说没有提醒你哦！如何消减婚礼预算？别说没有提醒你哦！</p>
+			        			<ul class="m-msg">
+			        				<li>03-21</li>
+			        				<li>4
+			        					<img src="/hunlimao/images/xin.png">
+			        				</li>
+			        				<li>10
+			        					<img src="/hunlimao/images/xin2.png">
+			        				</li>
+			        			</ul>
+			        		</div>
+			        	</div>
+			        </div>
+			    </div>
+			</div>
+		</div>
+	</section>
+	

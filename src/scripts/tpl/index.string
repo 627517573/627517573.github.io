@@ -1,0 +1,48 @@
+<div class="wrap">
+	<div class="m-container"></div>
+	<!--footer-->
+	<footer>
+		<ul id="ul">
+			<li class="active" action-type="switch.move" data-tag='home'>
+				<i class="yo-ico">
+					&#xe60c;
+				</i>
+				<b>
+					爱逛
+				</b>
+			</li>
+			<li action-type="switch.move" data-tag='search'>
+				<i class="yo-ico">
+					&#xe662;
+				</i>
+				<b>
+					社区
+				</b>
+			</li>
+			<li action-type="switch.move" data-tag='wedding'>
+				<i class="yo-ico">
+					&#xe63d;
+				</i>
+				<b>
+					婚礼圈
+				</b>
+			</li>
+			<li action-type="switch.move" data-tag='tool'>
+				<i class="yo-ico">
+					&#xe628;
+				</i>
+				<b>
+					工具
+				</b>
+			</li>
+			<li action-type="switch.move" data-tag='my'>
+				<i class="yo-ico">
+					&#xe603;
+				</i>
+				<b>
+					我的
+				</b>
+			</li>
+		</ul>
+	</footer>
+</div>
