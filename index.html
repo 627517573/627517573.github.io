@@ -5,9 +5,16 @@
   <title>婚礼猫</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="/hunlimao/prd/styles/usage/app@4db4a5758ec49329fcc09882c2062dcc.css"> 
+	<script>
+      document.ontouchmove = function(e) {
+          if (e.target.tagName.toUpperCase() !== 'IFRAME') {
+              e.preventDefault();
+          }
+      };
+  </script>
 </head>
 <body> 
 			
-    <script src="/hunlimao/prd/scripts/app@94140d827ca12fa3d0ca4135fea52eb0.js"></script>
+    <script src="/hunlimao/prd/scripts/app@45bd17c705b5bb47282f5a7c5edb4abf.js"></script>
 </body>
 </html>
