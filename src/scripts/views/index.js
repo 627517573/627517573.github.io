@@ -1,6 +1,8 @@
 var indexTpl = require('../tpl/index.string');
 //var IScroll = require('../lib/iscroll-probe.js');//spa中包含iscroll框架了
-
+window.addEventListener('touchmove',function(ev){
+	ev.preventDefault();
+},false);
 SPA.defineView('index', {
 	html: indexTpl,
 	
@@ -32,15 +34,6 @@ SPA.defineView('index', {
 			
 		}
 		//后面还可以写多个
-	},
-	bindEvents:{
-		'show':function(){
-			document.ontouchmove = function(e) {
-	          if (e.target.tagName.toUpperCase() !== 'IFRAME') {
-	              e.preventDefault();
-	          }
-	      };
-		}
 	}
 	
 })
