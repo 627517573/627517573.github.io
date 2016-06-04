@@ -1,3 +1,220 @@
-div.my{
-    color:red;
+header#my{
+    height:1.03rem;
+    background: url(/hunlimao/images/person_bg.png) no-repeat left top;
+    background-size: 3.75rem 1.03rem;
+    ul#name{
+        height:.44rem;
+        li#last-my{
+            img{
+                width:.17rem;
+                height:.2rem;
+            }
+        }
+    }
+    div.person{
+        width:100%;
+        height:.6rem;
+        position: relative;
+        div#per{
+            width:.50rem;
+            height:.51rem;
+            @include border-radius(50%);
+            background: #fff;
+            position: absolute;
+            top:.02rem;
+            left:.14rem;
+            img{
+                
+                width:.48rem;
+                height:.48rem;
+                position: absolute;
+                top:.01rem;
+                left:.01rem;
+            }
+        }
+        ul{
+            width:100%;
+            height:100%;
+            @include flexbox();
+            @include align-items(center);
+            li{
+                &:first-child{
+                    width:1.68rem;
+                    line-height: .4rem;
+                    font-size: .12rem;
+                    color:#5b5b5b;
+                }
+                &:nth-child(2){
+                    @include flex();
+                }
+                &:last-child{
+                    width: .58rem;
+                    img{
+                        width:.06rem;
+                        height:.1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+section{
+    div.my-section{
+        width:100%;
+        height:.54rem;
+        padding:.13rem .17rem;
+        @include box-sizing(border-box);
+        background: #fff;
+        margin-bottom: .1rem;
+        ul{
+            height:100%;
+            @include flexbox();
+            @include align-items(center);
+            @include justify-content(center);
+            li{
+                @include flex();
+                height:100%;
+                text-align: center;
+                line-height: .3rem;
+                font-size: .12rem;
+                &:first-child{
+                    @include border(0 2px 0 0, #E3E3E3);
+                    @include box-sizing(border-box);
+                    background: url(/hunlimao/images/ic_favorite.png) no-repeat .32rem center;
+                    background-size: .22rem .21rem;
+                }
+                &:last-child{
+                    background: url(/hunlimao/images/my_order.png) no-repeat .32rem center;
+                    background-size: .22rem .22rem;
+                }
+            }
+        }
+    }
+    div.ka{
+        width:100%;
+        height:.9rem;
+        padding:0 .3rem;
+        @include box-sizing(border-box);
+        background: #fff;
+        margin-bottom: .1rem;
+        ul{
+            width:100%;
+            height:100%;
+            li{
+                width:100%;
+                height:.45rem;
+                @include flexbox();
+                @include flex-direction(row);
+                line-height: .9rem;
+                &:first-child{
+                    @include border(0 0 1px 0, #f7f7f7);
+                    @include box-sizing(border-box);
+                    ul.m-ka{
+                        @include flexbox();
+                        width:100%;
+                        height:100%;
+                        font-size: .12rem;
+                        li{
+                            height:.45rem;
+                            line-height: .46rem;
+                            &:first-child{
+                                width:.32rem;
+                                text-align: center;
+                                background: url(/hunlimao/images/my_coupon.png) no-repeat left center;
+                                background-size:.18rem .12rem ;
+                            }
+                            &:nth-child(2){
+                                width:1.65rem;
+                                text-align: center;
+                            }
+                            &:last-child{
+                                @include flex();
+                                text-align: center;
+                                background: url(/hunlimao/images/arrow_right_gray2.png) no-repeat right center;
+                                background-size:.06rem .1rem ;
+                            }
+                        }
+                    }
+                }
+                &:last-child{
+                    ul.m-ka{
+                        @include flexbox();
+                        width:100%;
+                        height:100%;
+                        font-size: .12rem;
+                        li{
+                            height:.45rem;
+                            line-height: .46rem;
+                            &:first-child{
+                                width:.32rem;
+                                text-align: center;
+                                background: url(/hunlimao/images/my_feed.png) no-repeat left center;
+                                background-size:.17rem .17rem ;
+                            }
+                            &:nth-child(2){
+                                width:1.65rem;
+                                text-align: center;
+                            }
+                            &:last-child{
+                                @include flex();
+                                text-align: right;
+                                background: url(/hunlimao/images/arrow_right_gray2.png) no-repeat right center;
+                                background-size:.06rem .1rem ;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    div.sett{
+        width:100%;
+        height:.44rem;
+        padding:0 .3rem;
+        background: #fff;
+        @include box-sizing(border-box);
+        margin-bottom: .1rem;
+        ul.m-ka{
+            @include flexbox();
+            width:100%;
+            height:100%;
+            font-size: .12rem;
+            li{
+                height:.45rem;
+                line-height: .46rem;
+                &:first-child{
+                    width:.32rem;
+                    text-align: center;
+                    background: url(/hunlimao/images/circle_product_setting.png) no-repeat left center;
+                    background-size:.18rem .17rem ;
+                }
+                &:nth-child(2){
+                    width:1.65rem;
+                }
+                &:last-child{
+                    @include flex();
+                    text-align: center;
+                    color:#949494;
+                    background: url(/hunlimao/images/arrow_right_gray2.png) no-repeat right center;
+                    background-size:.06rem .1rem ;
+                }
+            }
+        }
+    }
+    div#bus{
+        .buss{
+            background: url(/hunlimao/images/mine_business.png) no-repeat left center;
+            background-size:.17rem .16rem ;
+        }
+    }
+    div#context{
+        .con1{
+            background: url(/hunlimao/images/ic_q_a.png) no-repeat left center;
+            background-size:.18rem .18rem ;
+        }
+        .con2{
+            background: url(/hunlimao/images/ic_phone_black.png) no-repeat left center;
+            background-size:.18rem .18rem ;
+        }
+    }
 }

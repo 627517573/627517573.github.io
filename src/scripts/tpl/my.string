@@ -1,3 +1,90 @@
-<div class="my">
-	mysersresr
-</div>
+<!--header-->
+	<header id="my">
+		<ul id="name">
+			<li>
+				<b>
+					
+				</b>
+			</li>
+			<li>
+				<i>
+					
+				</i>
+			</li>
+			<li id="last-my">
+				<i>
+					<img src='/hunlimao/images/mine_notification.png' />
+				</i>
+			</li>
+		</ul>
+		<div class="person">
+			<div id="per">
+				<img src="/hunlimao/images/avatar_default.png" />
+			</div>
+			
+			<ul>
+				<li>登录</li>
+				<li></li>
+				<li><img src="/hunlimao/images/arrow_right_gray2.png"></li>
+			</ul>
+		</div>
+	</header>
+<!--section-->
+	<section>
+		<div class="my-section">
+			<ul>
+				<li>我的收藏</li>
+				<li>我的订单</li>
+			</ul>
+		</div>
+		<div class="ka">
+			<ul>
+				<li>
+					<ul class="m-ka">
+						<li></li>
+						<li>我的卡卷</li>
+						<li></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="m-ka">
+						<li></li>
+						<li>我的帖子</li>
+						<li></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="sett">
+			<ul class="m-ka">
+				<li></li>
+				<li>设置</li>
+				<li></li>
+			</ul>
+		</div>
+		<div class="sett" id= "bus">
+			<ul class="m-ka">
+				<li class="buss"></li>
+				<li>我是商家</li>
+				<li>免费入驻加盟</li>
+			</ul>
+		</div>
+		<div class="ka" id="context">
+			<ul>
+				<li>
+					<ul class="m-ka">
+						<li class="con1"></li>
+						<li>常见问题</li>
+						<li></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="m-ka">
+						<li class="con2"></li>
+						<li>联系客服</li>
+						<li></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</section>
