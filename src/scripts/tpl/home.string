@@ -85,7 +85,7 @@
 					</ul>
 					<div class="scroll" spa-widget="scroll" data-scroll-id="indexScroll">	   
 						<div>
-							<div ms-repeat-value="livelist">
+							<div ms-repeat-value="livelist" action-type='newsblu'>
 								<ul>
 									<li ms-text="value.title">
 										

@@ -1,0 +1,106 @@
+<section action-type="touch">
+		<div class="head">
+			<div class="big">
+				<img src="/hunlimao/images/hela.jpg" />
+			</div>
+		</div>
+		<div class="a-new" spa-widget="scroll">
+			<div>
+				<div class="m-new">
+					<h3>赫拉恋城</h3>
+					<ul>
+						<li>&nbsp;￥4999&nbsp;&nbsp;</li>
+						<li>29&nbsp;人购买</li>
+					</ul>
+					<p>￥5299</p>
+					<div class="money">
+						资金担保
+					</div>
+					<p class="phone">手机专享优惠，预约成功立减￥300</p>
+					<p class="phone">拍完点评即可定制精美台历一份</p>
+				</div>
+				<div class="cont">
+					<h3>
+						套餐内容
+					</h3>
+					<div class="c-con">
+						<div></div>
+						<div>摄影师</div>
+						<div>
+							<h3>可选摄影团队</h3>
+							<ul>
+								<li><img src="/hunlimao/images/cam1.png"></li>
+								<li></li>
+								<li><img src="/hunlimao/images/cam2.png"></li>
+								<li></li>
+								<li><img src="/hunlimao/images/cam3.png"></li>
+								<li></li>
+							</ul>
+							<ul class="ms">
+								<li>3对1服务</li>
+								<li>160底片</li>
+								<li></li>
+							</ul>
+							<ul class="ms ms1">
+								<li>40精修</li>
+								<li></li>
+								<li></li>
+							</ul>
+							<p class="cir"></p>
+						</div>
+					</div>
+				</div>
+				<div class="cont cont1">
+					<div class="c-con">
+						<div></div>
+						<div>景点</div>
+						<div>
+							<ul class="ms">
+								<li>拼车出行</li>
+								<li>四季可拍</li>
+								<li></li>
+							</ul>
+							<p class="city">赫拉恋城</p>
+							<p class="city1">深圳市&nbsp;玫瑰小镇</p>
+						</div>
+					</div>
+				</div>
+				<div class="cont cont1 cont2">
+					<div class="c-con">
+						<div></div>
+						<div id="hs">婚纱</div>
+						<div id="marr">
+							<ul class="ms">
+								<li>全天跟拍</li>
+								<li>造型建议</li>
+								<li></li>
+							</ul>
+							<p class="city1">婚纱礼服各4套</p>
+						</div>
+					</div>
+				</div>
+				<div class="cont cont1 cont3">
+					<div class="c-con">
+						<div></div>
+						<div id="hj">婚件</div>
+						<div id="marrj">
+							<ul class="ms">
+								<li>随时升级</li>
+								<li>七天包退</li>
+								<li></li>
+							</ul>
+							<p class="city1">花海庄园婚件包</p>
+						</div>
+					</div>
+				</div>
+				<div class="con-img">
+					<h3>
+						套餐内容
+					</h3>
+					<div id="img-cen">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+</section>
