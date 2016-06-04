@@ -1,3 +1,95 @@
-div.wedding{
-    color:red;
+header{
+    ul{
+        li{
+            &#last1{
+                i{
+                    img{
+                        width:.18rem !important;
+                        height:.18rem !important;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+#sectionWed{
+    background: #fafafa;
+    div:first-child{
+        width:100%;
+        height:1.35rem;
+        @include flexbox();
+        @include align-items(center);
+        @include justify-content(center);
+        img{
+            width:1.26rem;
+            height:.76rem;
+        }
+    }
+    h3{
+        width:100%;
+        height:.15rem;
+        font-size: .14rem;
+        font-weight: 100;
+        text-align: center;
+        line-height: .15rem;
+        color:#7a7a7a;
+        text-indent: .1rem;
+        text-indent: .14rem;
+    }
+    div#num{
+        @include flexbox();
+        @include align-items(center);
+        @include justify-content(center);
+        width:100%;
+        height:.76rem;
+        div{
+            border-radius: 3%;
+            width: 3.15rem;
+            height: .47rem;
+            background: #EDEDF3;
+            input{
+                width: 3.13rem;
+                height: .45rem;
+                display: block;
+                border: 0;
+                color: #C5C5CB;
+                line-height: .45rem;
+                text-indent: .13rem;
+                font-size: .12rem;
+                border-radius: 1%;
+                background: #fff url(/hunlimao/images/arrow_right_pink.png) no-repeat 2.9rem 0.14rem;
+                background-size: .1rem .16rem;
+            }
+        }
+    }
+    ul{
+        @include flexbox();
+        width:100%;
+        height:.34rem;
+        @include align-items(center);
+        @include justify-content(center);
+        font-size: .12rem;
+        li{
+            height:.34rem;
+            &:first-child{
+                width:.31rem;
+            }
+            &:nth-child(2){
+                width:.98rem;
+                color:#FF6B7E;
+            }
+            &:nth-child(3){
+                @include flex();
+            }
+            &:nth-child(4){
+                width:1.21rem;
+                text-align: center;
+                a{
+                    text-decoration: underline;
+                    color:#A0A0A0;
+                }
+            }
+        }
+    }
 }

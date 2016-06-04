@@ -1,5 +1,6 @@
 var indexTpl = require('../tpl/index.string');
 //var IScroll = require('../lib/iscroll-probe.js');//spa中包含iscroll框架了
+
 SPA.defineView('index', {
 	html: indexTpl,
 	

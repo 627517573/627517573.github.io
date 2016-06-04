@@ -1,3 +1,39 @@
-<div class="wedding">
-	wedding
-</div>
+	<!--header-->
+	<header>
+		<ul>
+			<li>
+				<b>
+					
+				</b>
+			</li>
+			<li>
+				<i>
+					婚礼圈
+				</i>
+			</li>
+			<li id="last1">
+				<i>
+					<img src='/hunlimao/images/ic_q_a.png' />
+				</i>
+			</li>
+		</ul>
+	</header>
+	<!--sectionWed-->
+	<section id="sectionWed">
+		<div>
+			<img src="/hunlimao/images/wedding.png" />
+		</div>
+		<h3>加入亲友的婚礼圈</h3>
+		<div id="num">
+			<div>
+				<input type="text" placeholder="请输入创建人的手机号码" />
+			</div>
+		</div>
+		<ul>
+			<li></li>
+			<li>创建我的婚礼圈</li>
+			<li></li>
+			<li><a href="javascript:void(0);">查看范例&gt;</a></li>
+		</ul>
+	</section>
+	
