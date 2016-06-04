@@ -478,14 +478,6 @@
                         @include transform(scale(0.74) translate(5%,-34%));
                     }
                 }
-//              &:nth-child(2){
-//                  @include box-sizing(border-box);
-//                  padding-top:.07rem;
-//                  b{
-//                      @include transform(scale(0.74) translate(5%,-50%));
-//                  }
-//                  
-//              }
                 &.active{
                     color:#FC2A45;
                 }
