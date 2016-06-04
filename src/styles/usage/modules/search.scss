@@ -35,9 +35,10 @@ nav {
       }
     }
 section{
-    div{
+
         div#wrap-swiper{
             width:100%;
+            height:100%;
             div{
                 &#wrap3{
                     overflow: hidden;
@@ -116,7 +117,7 @@ section{
                         
                     }
                     div.sectionNew2{
-                        height:4rem;
+                        height:1.9rem;
                         margin-bottom: 0;
                     }
                 }
@@ -233,7 +234,6 @@ section{
                 }
             }
         }
-    }
 }
 
 

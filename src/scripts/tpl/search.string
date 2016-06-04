@@ -26,11 +26,10 @@
 	  </ul>
 	</nav>
 	<!--section-->
-	<section spa-widget="scroll">
-		<div>
+	<section >
 			<div class="swiper-container" id="wrap-swiper">
 				<div class="swiper-wrapper">
-			    	<div class="swiper-slide" id="wrap3">
+			    	<div class="swiper-slide" id="wrap3" spa-widget="scroll">
 				        <div>
 				          	<!--search-swiper-->
 							<div class="swiper-container" id="search-swiper">
@@ -127,44 +126,16 @@
 												
 											</div>
 										</div>  
-										<div>
-											<div class="s-left">
-												<img src="/hunlimao/images/s-left2.png">
-											</div>
-											<div class="s-right">
-												<h3>爱·婚享like</h3>
-													<h3>讲述情感故事讲述情感故事讲述情感故事</h3>
-												
-											</div>
-										</div>  
-										<div>
-											<div class="s-left">
-												<img src="/hunlimao/images/s-left3.png">
-											</div>
-											<div class="s-right">
-												<h3>爱·婚享like</h3>
-													<h3>讲述情感故事讲述情感故事讲述情感故事</h3>
-												
-											</div>
-										</div> 
-										<div>
-											<div class="s-left">
-												<img src="/hunlimao/images/s-left2.png">
-											</div>
-											<div class="s-right">
-												<h3>爱·婚享like</h3>
-													<h3>讲述情感故事讲述情感故事讲述情感故事</h3>
-											
-											</div>
-										</div> 
+										
 									</div>
 									
 								</div>
 							</div>
 				        </div>
 				    </div>
-			        <div class="swiper-slide" id="wrap4">
-			        	<div class="news">
+			        <div class="swiper-slide" id="wrap4" spa-widget="scroll">
+			        	<div>
+			        		<div class="news">
 			        		<div class="m-news">
 			        			<ul>
 			        				<li><img src="/hunlimao/images/ico1.png"></li>
@@ -233,9 +204,10 @@
 			        			</ul>
 			        		</div>
 			        	</div>
+			        	</div>
+			        	
 			        </div>
 			    </div>
 			</div>
-		</div>
 	</section>
 	
