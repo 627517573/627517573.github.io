@@ -1156,7 +1156,7 @@ div#wrapDown div.downSection{width:100%;overflow:visible;height:100%;background:
 div#wrapDown div.downSection div.form1{width:100%;height:.9rem;background:#fff;padding:0 .18rem;-webkit-box-sizing:border-box;box-sizing:border-box}
 div#wrapDown div.downSection div.form1 div{width:100%;height:.45rem}
 div#wrapDown div.downSection div.form1 div:first-child{position:relative;-webkit-box-sizing:border-box;box-sizing:border-box}
-div#wrapDown div.downSection div.form1 div:first-child::after{pointer-events:none;position:absolute;z-index:999;top:0;left:0;content:"\0020";border-color:#d7d7d7;border-style:solid;border-width:0 0 2px 0;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transform-origin:0 0;transform-origin:0 0}
+div#wrapDown div.downSection div.form1 div:first-child::after{pointer-events:none;position:absolute;z-index:999;top:0;left:0;content:"\0020";border-color:#d7d7d7;border-style:solid;border-width:0 0 1px 0;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transform-origin:0 0;transform-origin:0 0}
 @media(max--moz-device-pixel-ratio:1.49),(-webkit-max-device-pixel-ratio:1.49),(max-device-pixel-ratio:1.49),(max-resolution:143dpi),(max-resolution:1.49dppx){div#wrapDown div.downSection div.form1 div:first-child::after{width:100%;height:100%}
 }
 @media(min--moz-device-pixel-ratio:1.5) and (max--moz-device-pixel-ratio:2.49),(-webkit-min-device-pixel-ratio:1.5) and (-webkit-max-device-pixel-ratio:2.49),(min-device-pixel-ratio:1.5) and (max-device-pixel-ratio:2.49),(min-resolution:144dpi) and (max-resolution:239dpi),(min-resolution:1.5dppx) and (max-resolution:2.49dppx){div#wrapDown div.downSection div.form1 div:first-child::after{width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5)}
