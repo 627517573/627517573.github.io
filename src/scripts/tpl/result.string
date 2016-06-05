@@ -1,0 +1,59 @@
+<!--<div action-type="resultshide">111</div>-->
+	<div id="wrapResult">
+		<div class="resultHeader">
+			<ul id="resultName">
+				<li action-type="resultshide">
+					<b>
+						<img src='/hunlimao/images/arrow_left_black.png' />
+					</b>
+				</li>
+				<li>预约成功</li>
+				<li></li>
+			</ul>
+		</div>
+		<div class="resultSection">
+			<div class="resultMsg">
+				<h3>预约成功，等待顾问联系</h3>
+				<p>顾问将在24小时内向您致电（节假日顺延），</p>
+				<p>沟通拍摄事宜</p>
+			</div>
+			<div class="reimg">
+				<ul>
+					<li>
+						<i>
+							<img src='/hunlimao/images/photography_book_finish_1.png' />
+						</i>
+						<b>
+							订单提交
+						</b>
+					</li>
+					<li>
+						<i>
+							<img src='/hunlimao/images/photography_book_finish_2.png' />
+						</i>
+						<b>
+							顾问联系
+						</b>
+					</li>
+					<li>
+						<i>
+							<img src='/hunlimao/images/photography_book_finish_3.png' />
+						</i>
+						<b>
+							生成订单
+						</b>
+					</li>
+				</ul>
+			</div>
+			<div class="perfect">
+				<div class="pmoney">
+					订单生成后，你可以享受以下优惠
+				</div>
+				<p class="p-phone">手机专享优惠，预约成功立减￥300</p>
+				<p class="p-phone">拍完点评即可定制精美台历一份</p>
+			</div>
+			<p class="last-p"><span>免费客服热线：</span><span>400-808-333</span></p>
+		</div>
+		<div class="resultFooter"></div>
+	</div>
+

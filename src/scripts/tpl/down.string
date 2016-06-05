@@ -1,0 +1,36 @@
+<!--<div action-type="downshide">111</div>-->
+	<div id="wrapDown">
+		<div class="downHeader">
+			<ul id="downName">
+					<li action-type="downshide">
+						<b>
+							<img src='/hunlimao/images/arrow_left_black.png' />
+						</b>
+					</li>
+					<li>预约</li>
+					<li></li>
+				</ul>
+		</div>
+		<div class="downSection">
+			<div class="form1">
+				<div>
+					<ul>
+						<li>称呼</li>
+						<li>
+							<input type="text" dir="rtl" placeholder="怎么称呼您" />
+						</li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li>手机</li>
+						<li>
+							
+							<input type="number" dir="rtl" placeholder="请输入常用手机号" pattern="(\d{11})|^((\d{7,8})|(\d{4}|\d{3})-(\d{7,8})|(\d{4}|\d{3})-(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1})|(\d{7,8})-(\d{4}|\d{3}|\d{2}|\d{1}))$" required="required" type="text"/>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="downFooter" action-type="resultOpen">立即预约</div>
+	</div>

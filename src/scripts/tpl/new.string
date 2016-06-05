@@ -163,7 +163,7 @@
 				<li>
 					在线咨询
 				</li>
-				<li>
+				<li action-type="downOpen">
 					立即预约
 				</li>
 			</ul>

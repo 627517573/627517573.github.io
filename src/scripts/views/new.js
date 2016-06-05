@@ -11,7 +11,8 @@ SPA.defineView('new',{
 		'show':function(){
 			var vm=this.getVM();
 			 $.ajax({
-	        	url: '/api/getlivelist.php',
+	        	//url: '/api/getlivelist.php',
+	        	url:'hunlimao/mock/livelist.json',
 		        success: function (res) {
 		        	vm.livelist3=res.data.gp4;
 		        }
@@ -21,6 +22,9 @@ SPA.defineView('new',{
 	bindActions:{
 		'newshide':function(){
 			this.hide();
+		},
+		'downOpen':function(){
+			SPA.open('down');
 		},
 		'touch':function(){
 			var _startclientY;
