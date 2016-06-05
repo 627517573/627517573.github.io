@@ -8,12 +8,11 @@ div#wrapResult{
         width:100%;
         height:.44rem;
         @include border(0 0 1px 0,#d7d7d7);
-            @include box-sizing(border-box);
+        @include box-sizing(border-box);
         ul#resultName{
             @include flexbox();
             width:100%;
             height:100%;
-            
             li:first-child{
                 width: .46rem;
                 line-height: .44rem;
@@ -55,7 +54,6 @@ div#wrapResult{
         height:100%;
         background: #F6F6F6;
         padding-top: .09rem;
-        
         @include box-sizing(border-box);
         div.resultMsg{
             width:100%;
@@ -72,7 +70,7 @@ div#wrapResult{
                 color:#000;
                 font-size: .16rem;
                 font-weight: 100;
-                background: url(/hunlimao/images/check_yes_green.png) no-repeat .88rem center;
+                background: url(/hunlimao/images/check_yes_green.png) no-repeat 21% center;
                 background-size: .2rem .2rem;
                 letter-spacing: .01rem;
             }
