@@ -1,7 +1,23 @@
 var newsTpl = require('../tpl/new.string');
 SPA.defineView('new',{
 	html:newsTpl,
-	plugins:['delegated'],
+	plugins:['delegated',{
+		name:'avalon',
+		options:function(vm){
+			vm.livelist3=[];
+		}
+	}],
+	bindEvents:{
+		'show':function(){
+			var vm=this.getVM();
+			 $.ajax({
+	        	url: '/api/getlivelist.php',
+		        success: function (res) {
+		        	vm.livelist3=res.data.gp4;
+		        }
+		    })
+		}
+	},
 	bindActions:{
 		'newshide':function(){
 			this.hide();
@@ -10,15 +26,24 @@ SPA.defineView('new',{
 			var _startclientY;
 			var _endclientY;
 			var _cha;
-			$('section').on('touchstart',function(ev){
-				_startclientY=parseInt(ev.targetTouches[0].clientY);
-				$('section').on('touchend',function(qev){
-					_endclientY=parseInt(ev.targetTouches[0].clientY);
-				});
-			});
+//			window.addEventListener('touchstart',function(ev){
+//				alert(1);
+//				_startclientY=parseInt(ev.targetTouches[0].clientY);
+//				this.addEventListener('touchmove',function(evv){
+//					console.log(evv);
+//				},false);
+//				
+//			},false);
+//			on('touchstart',function(ev){
+//				_startclientY=parseInt(ev.targetTouches[0].clientY);
+//				$('section').on('touchmove',function(qev){
+//					console.log(qev)
+//				});
+//			});
 			
 			//_cha=_endclientY-_startclientY;
-			console.log(_endclientY)
+			
 		}
 	}
+	
 });

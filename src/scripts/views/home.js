@@ -21,8 +21,7 @@ SPA.defineView('home',{
 			//数据
 			var vm=this.getVM();
 			 $.ajax({
-	        	//url: '/api/getlivelist.php',
-	        	url:'hunlimao/mock/livelist.json',
+	        	url: '/api/getlivelist.php',
 		        success: function (res) {
 		        	vm.livelist=res.data.gp1;
 		        	vm.livelist1=res.data.gp2;
