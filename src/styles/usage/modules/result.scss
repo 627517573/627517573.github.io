@@ -59,7 +59,6 @@ div#wrapResult{
             height:1.11rem;
             background: #fff;
             padding-top: .11rem;
-            margin-top:.09rem;
             @include border(0 0 1px 0,#d7d7d7);
             @include box-sizing(border-box);
             h3{
@@ -70,7 +69,7 @@ div#wrapResult{
                 color:#000;
                 font-size: .16rem;
                 font-weight: 100;
-                background: url(/hunlimao/images/check_yes_green.png) no-repeat 19% center;
+                background: url(/hunlimao/images/check_yes_green.png) no-repeat 21% center;
                 background-size: .2rem .2rem;
                 letter-spacing: .01rem;
             }

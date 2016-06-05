@@ -1187,7 +1187,7 @@ div#wrapResult div.resultHeader ul#resultName li:nth-child(2) img{width:.50rem;h
 div#wrapResult div.resultHeader ul#resultName li:nth-child(3){width:.6rem;line-height:.44rem;text-align:center}
 div#wrapResult div.resultHeader ul#resultName li:nth-child(3) img{width:.18rem;height:.18rem}
 div#wrapResult div.resultSection{width:100%;overflow:visible;height:100%;background:#f6f6f6;-webkit-box-sizing:border-box;box-sizing:border-box}
-div#wrapResult div.resultSection div.resultMsg{width:100%;height:1.11rem;background:#fff;padding-top:.11rem;margin-top:.09rem;position:relative;-webkit-box-sizing:border-box;box-sizing:border-box}
+div#wrapResult div.resultSection div.resultMsg{width:100%;height:1.11rem;background:#fff;padding-top:.11rem;position:relative;-webkit-box-sizing:border-box;box-sizing:border-box}
 div#wrapResult div.resultSection div.resultMsg::after{pointer-events:none;position:absolute;z-index:999;top:0;left:0;content:"\0020";border-color:#d7d7d7;border-style:solid;border-width:0 0 1px 0;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transform-origin:0 0;transform-origin:0 0}
 @media(max--moz-device-pixel-ratio:1.49),(-webkit-max-device-pixel-ratio:1.49),(max-device-pixel-ratio:1.49),(max-resolution:143dpi),(max-resolution:1.49dppx){div#wrapResult div.resultSection div.resultMsg::after{width:100%;height:100%}
 }
@@ -1195,7 +1195,7 @@ div#wrapResult div.resultSection div.resultMsg::after{pointer-events:none;positi
 }
 @media(min--moz-device-pixel-ratio:2.5),(-webkit-min-device-pixel-ratio:2.5),(min-device-pixel-ratio:2.5),(min-resolution:240dpi),(min-resolution:2.5dppx){div#wrapResult div.resultSection div.resultMsg::after{width:300%;height:300%;-webkit-transform:scale(0.33333);transform:scale(0.33333)}
 }
-div#wrapResult div.resultSection div.resultMsg h3{width:100%;height:.44rem;line-height:.44rem;text-align:center;color:#000;font-size:.16rem;font-weight:100;background:url(/hunlimao/images/check_yes_green.png) no-repeat 19% center;background-size:.2rem .2rem;letter-spacing:.01rem}
+div#wrapResult div.resultSection div.resultMsg h3{width:100%;height:.44rem;line-height:.44rem;text-align:center;color:#000;font-size:.16rem;font-weight:100;background:url(/hunlimao/images/check_yes_green.png) no-repeat 21% center;background-size:.2rem .2rem;letter-spacing:.01rem}
 div#wrapResult div.resultSection div.resultMsg p{font-size:.12rem;line-height:.14rem;height:.16rem;text-align:center;letter-spacing:.01rem}
 div#wrapResult div.resultSection div.reimg{width:100%;height:.93rem;padding:0 .69rem;position:relative;-webkit-box-sizing:border-box;box-sizing:border-box;background:#fff;margin-bottom:.1rem}
 div#wrapResult div.resultSection div.reimg::after{pointer-events:none;position:absolute;z-index:999;top:0;left:0;content:"\0020";border-color:#d7d7d7;border-style:solid;border-width:0 0 1px 0;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transform-origin:0 0;transform-origin:0 0}
