@@ -1,4 +1,4 @@
-<section action-type="touch">
+<div id="wrapNew" action-type="touch">
 		<div class="head">
 			<div class="big">
 				<img src="/hunlimao/images/hela.jpg" />
@@ -103,4 +103,4 @@
 				</div>
 			</div>
 		</div>
-</section>
+</div>
