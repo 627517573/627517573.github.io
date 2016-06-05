@@ -26,10 +26,11 @@
 	  </ul>
 	</nav>
 	<!--section-->
-	<section >
+	<section spa-widget="scroll">
+		<div>
 			<div class="swiper-container" id="wrap-swiper">
 				<div class="swiper-wrapper">
-			    	<div class="swiper-slide" id="wrap3" spa-widget="scroll">
+			    	<div class="swiper-slide" id="wrap3" >
 				        <div>
 				          	<!--search-swiper-->
 							<div class="swiper-container" id="search-swiper">
@@ -133,7 +134,7 @@
 							</div>
 				        </div>
 				    </div>
-			        <div class="swiper-slide" id="wrap4" spa-widget="scroll">
+			        <div class="swiper-slide" id="wrap4">
 			        	<div>
 			        		<div class="news">
 			        		<div class="m-news">
@@ -208,6 +209,7 @@
 			        	
 			        </div>
 			    </div>
+			</div>
 			</div>
 	</section>
 	
