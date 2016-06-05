@@ -1051,7 +1051,7 @@ header ul li#last1 i img{width:.18rem!important;height:.18rem!important}
 #sectionWed ul li:nth-child(4) a{text-decoration:underline;color:#a0a0a0}
 section{width:100%;height:100%;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column}
 section div.head{width:100%;height:1.3rem;background:pink}
-section div.head div.big{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;width:100%;height:2.1rem}
+section div.head div.big{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;width:6.5rem;height:2rem}
 section div.head div.big img{height:100%}
 section div.a-new{width:100%!important;-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px;overflow:visible!important;height:100%}
 section div.a-new div div.m-new{background:#fff;width:100%;height:2rem;padding:0 .18rem;-webkit-box-sizing:border-box;box-sizing:border-box;margin-bottom:.09rem}
