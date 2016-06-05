@@ -26,11 +26,10 @@
 	  </ul>
 	</nav>
 	<!--section-->
-	<section>
-		<div>
+	<section >
 			<div class="swiper-container" id="wrap-swiper">
 				<div class="swiper-wrapper">
-			    	<div class="swiper-slide" id="wrap3"  spa-widget="scroll">
+			    	<div class="swiper-slide" id="wrap3" spa-widget="scroll">
 				        <div>
 				          	<!--search-swiper-->
 							<div class="swiper-container" id="search-swiper">
@@ -209,7 +208,6 @@
 			        	
 			        </div>
 			    </div>
-			</div>
 			</div>
 	</section>
 	
