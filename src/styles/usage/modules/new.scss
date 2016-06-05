@@ -3,16 +3,66 @@ div#wrapNew{
     height:100%;
     @include flexbox();
     @include flex-direction(column);
+    background: #fff;
        div.head{
            width:100%;
-           height:1.3rem;
+           height:.42rem;
            background: pink;
+           position: relative;
+           div.newHeader{
+                width: 100%;
+                height: .44rem;
+                
+                background-image: -webkit-linear-gradientrgba(0, 0, 0, 0.2), transparent;
+                background-image: linear-gradient(rgba(0, 0, 0, .6), transparent);
+                position: absolute;
+                top: 0;
+                ul#newName{
+                    @include flexbox();
+                    width:100%;
+                    height:100%;
+                    
+                    li:first-child{
+                        width: .46rem;
+                        line-height: .44rem;
+                        text-align: center;
+                        font-size: .12rem;
+                        & b{
+                            font-weight: 100;
+                            display: inline-block;
+                            img{
+                               width:.10rem;
+                               height:.14rem;
+                               display: inline-block;
+                            }
+                        }
+                    }
+                    li:nth-child(2){
+                        @include flex();
+                        line-height: .44rem;
+                        text-align: center;
+                        img{
+                            width:.50rem;
+                            height:.18rem;
+                        }
+                    }
+                    li:nth-child(3){
+                        width:.6rem;
+                        line-height: .44rem;
+                        text-align: center;
+                        img{
+                            width:.18rem;
+                            height:.18rem;
+                        }
+                    }
+                }
+           }
            div.big{
                 @include flexbox();
                 @include align-items(center);
                 @include justify-content(center);
-                width:6.5rem;
-                height:2rem;
+                width: 4.2rem;
+                height: 2.7rem;
                 img{
                    height:100%;
                }
@@ -21,77 +71,92 @@ div#wrapNew{
        div.a-new{
            width:100% !important;
            @include flex();
-           overflow: visible !important;
+           overflow: visible;
            height:100%;
            div{
                div.m-new{
                    background: #fff;
                    width:100%;
-                   height:2rem;
-                   padding:0 .18rem;
-                   @include box-sizing(border-box);
-                   h3{
-                       height:.35rem;
-                       line-height: .35rem;
-                       color:#000;
-                       font-weight: 100;
-                       font-size: .14rem;
-                   }
-                   ul{
+                   height:4rem;
+                   div.helac{
                        width:100%;
-                       height:.15rem;
+                       height:2rem;
+                       overflow: hidden;
                        @include flexbox();
-                       li{
-                           @include flex();
-                           height:.15rem;
-                           line-height: .15rem;
-                           &:first-child{
-                               text-align: left;
-                               color:#FF6E80;
-                           }
-                           &:last-child{
-                               color:#ababab;
-                               text-align: right;
-                               font-size: .12rem;
-                           }
+                        @include align-items(center);
+                        @include justify-content(center);
+                       img{
+                           width:6.6rem;
+                           height:2rem;
                        }
                    }
-                   p{
-                       height:.14rem;
-                       width:100%;
-                       text-align: left;
-                       text-decoration: line-through;
-                       color:#969696;
-                       font-size: .12rem;
-                       margin-bottom: .17rem;
-                   }
-                   div.money{
-                       width:100%;
-                       height:.47rem;
-                       line-height: .47rem;
-                       padding-left:.24rem;
-                       @include border(1px 0 1px 0, #f0f0f0);
+                   div#hela-bot{
+                       padding:0 .18rem;
                        @include box-sizing(border-box);
-                       font-size: .12rem;
-                       color:#ababab;
-                       background: url(/hunlimao/images/check_yes_pink.png) no-repeat left center;
-                       background-size: .12rem .12rem;
-                       margin-bottom: .17rem;
+                       h3{
+                           height:.35rem;
+                           line-height: .35rem;
+                           color:#000;
+                           font-weight: 100;
+                           font-size: .14rem;
+                       }
+                       ul{
+                           width:100%;
+                           height:.15rem;
+                           @include flexbox();
+                           li{
+                               @include flex();
+                               height:.15rem;
+                               line-height: .15rem;
+                               &:first-child{
+                                   text-align: left;
+                                   color:#FF6E80;
+                               }
+                               &:last-child{
+                                   color:#ababab;
+                                   text-align: right;
+                                   font-size: .12rem;
+                               }
+                           }
+                       }
+                       p{
+                           height:.14rem;
+                           width:100%;
+                           text-align: left;
+                           text-decoration: line-through;
+                           color:#969696;
+                           font-size: .12rem;
+                           margin-bottom: .17rem;
+                       }
+                       div.money{
+                           width:100%;
+                           height:.47rem;
+                           line-height: .47rem;
+                           padding-left:.24rem;
+                           @include border(1px 0 1px 0, #f0f0f0);
+                           @include box-sizing(border-box);
+                           font-size: .12rem;
+                           color:#ababab;
+                           background: url(/hunlimao/images/check_yes_pink.png) no-repeat left center;
+                           background-size: .12rem .12rem;
+                           margin-bottom: .17rem;
+                       }
+                       p.phone{
+                           height:.17rem;
+                           width:100%;
+                           line-height: .17rem;
+                           font-size:.12rem;
+                           color:#ababab;
+                           padding-left:.24rem;
+                           @include box-sizing(border-box);
+                           text-decoration: none;
+                           margin-bottom: .07rem;
+                           letter-spacing: .01rem;
+                           background: url(/hunlimao/images/hui.png) no-repeat left center;
+                           background-size: .17rem .17rem;
+                       }
                    }
-                   p.phone{
-                       height:.17rem;
-                       width:100%;
-                       line-height: .17rem;
-                       font-size:.12rem;
-                       color:#ababab;
-                       padding-left:.24rem;
-                       @include box-sizing(border-box);
-                       text-decoration: none;
-                       margin-bottom: .07rem;
-                       letter-spacing: .01rem;
-                       background: url(/hunlimao/images/hui.png) no-repeat left center;
-                       background-size: .17rem .17rem;
-                   }
+                   
                    
                }
            }
@@ -315,7 +380,7 @@ div#wrapNew{
            }
            div#img-cen{
                width:100%;
-               height:43.8rem !important;
+               height:100% !important;
                padding:0 .18rem;
                @include box-sizing(border-box);
                img{
@@ -323,5 +388,43 @@ div#wrapNew{
                    margin-bottom:.05rem;
                }
            }
+       }
+       div.newFooter{
+           width:100%;
+           height:.44rem;
+           background: #fff;
+           ul#shop{
+                @include flexbox();
+                width:100%;
+                height:100%;
+                li:first-child{
+                    width: 1.65rem;
+                    line-height: .44rem;
+                    text-align: center;
+                    font-size: .12rem;
+                    color:#575757;
+                    @include border(0 1px 0 0,#e1e1e1);
+                    @include box-sizing(border-box);
+                    span{
+                        color:#FF7385;
+                        font-size: .14rem;
+                        font-weight: 600;
+                    }
+                }
+                li:nth-child(2){
+                    @include flex();
+                    line-height: .44rem;
+                    text-align: center;
+                    color:#575757;
+                }
+                li:nth-child(3){
+                    width:1.05rem;
+                    line-height: .44rem;
+                    font-size: .14rem;
+                    text-align: center;
+                    background:#FF7385;
+                    color:#fff;
+                }
+            }
        }
 }

@@ -1,23 +1,48 @@
 <div id="wrapNew" action-type="touch">
 		<div class="head">
+			<div class="newHeader">
+				<ul id="newName">
+					<li action-type="newshide">
+						<b>
+							<img src='/hunlimao/images/arrow_left_white.png' />
+						</b>
+					</li>
+					<li>
+						<i>
+							<img src='/hunlimao/images/wrap.png' />
+						</i>
+					</li>
+					<li id="last-my">
+						<i>
+							<img src='/hunlimao/images/abc_ic_menu_share_mtrl_alpha.png' />
+						</i>
+					</li>
+				</ul>
+			</div>
 			<div class="big">
-				<img src="/hunlimao/images/hela.jpg" />
+				<img src="/hunlimao/images/helas.png" />
 			</div>
 		</div>
 		<div class="a-new" spa-widget="scroll">
 			<div>
 				<div class="m-new">
-					<h3>赫拉恋城</h3>
-					<ul>
-						<li>&nbsp;￥4999&nbsp;&nbsp;</li>
-						<li>29&nbsp;人购买</li>
-					</ul>
-					<p>￥5299</p>
-					<div class="money">
-						资金担保
+					<div class="helac">
+						<img src="/hunlimao/images/yang.png" />
 					</div>
-					<p class="phone">手机专享优惠，预约成功立减￥300</p>
-					<p class="phone">拍完点评即可定制精美台历一份</p>
+					<div id="hela-bot">
+						<h3>赫拉恋城</h3>
+						<ul>
+							<li>&nbsp;￥4999&nbsp;&nbsp;</li>
+							<li>29&nbsp;人购买</li>
+						</ul>
+						<p>￥5299</p>
+						<div class="money">
+							资金担保
+						</div>
+						<p class="phone">手机专享优惠，预约成功立减￥300</p>
+						<p class="phone">拍完点评即可定制精美台历一份</p>
+					</div>
+					
 					
 				</div>
 				<div class="cont">
@@ -125,8 +150,23 @@
 						<img src="/hunlimao/images/img13.png" />
 						<img src="/hunlimao/images/img14.png" />
 						<img src="/hunlimao/images/img15.png" />
+						<img src="/hunlimao/images/img15.png" />
 					</div>
 				</div>
+				<div style="width:100%;height:100px"></div>
 			</div>
+		</div>
+		<div class="newFooter">
+			<ul id="shop">
+				<li>
+					套餐价<span>￥4999</span>
+				</li>
+				<li>
+					在线咨询
+				</li>
+				<li>
+					立即预约
+				</li>
+			</ul>
 		</div>
 </div>

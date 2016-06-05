@@ -1,4 +1,4 @@
-﻿var homeTpl=require('../tpl/home.string');
+var homeTpl=require('../tpl/home.string');
 SPA.defineView('home',{
 	html:homeTpl,
 	plugins:['delegated',{
@@ -21,7 +21,7 @@ SPA.defineView('home',{
 			//数据
 			var vm=this.getVM();
 			 $.ajax({
-	        	
+	        	//url: '/api/getlivelist.php',
 	        	url:'hunlimao/mock/livelist.json',
 		        success: function (res) {
 		        	vm.livelist=res.data.gp1;
