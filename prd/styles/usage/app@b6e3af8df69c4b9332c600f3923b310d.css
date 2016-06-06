@@ -1049,6 +1049,22 @@ header ul li#last1 i img{width:.18rem!important;height:.18rem!important}
 #sectionWed ul li:nth-child(3){-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px}
 #sectionWed ul li:nth-child(4){width:1.21rem;text-align:center}
 #sectionWed ul li:nth-child(4) a{text-decoration:underline;color:#a0a0a0}
+.ani{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+.ani.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}
+@-webkit-keyframes rotate{from{-webkit-transform:rotatez(0)}
+to{-webkit-transform:rotatez(360deg)}
+}
+@keyframes rotate{from{transform:rotatez(0)}
+to{transform:rotatez(360deg)}
+}
+.ani.rotate{-webkit-animation-name:rotate;animation-name:rotate}
+.yo-loading{display:-webkit-box;display:-webkit-flex;display:flex;position:absolute;z-index:9999;top:0;right:0;bottom:0;left:0;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;align-items:center;background-color:rgba(0,0,0,0.1);line-height:1}
+.yo-loading>.inner{display:block;text-align:center;padding:.1rem .2rem;border-radius:.05rem;-webkit-background-clip:padding-box!important;background-clip:padding-box!important;color:#212121;font-size:14px}
+.yo-loading>.inner>.yo-ico{display:block;margin-bottom:.1rem;-webkit-animation:rotate 1s infinite linear;animation:rotate 1s infinite linear;-webkit-transform-origin:center;transform-origin:center}
+.yo-loading>.inner>.yo-ico::before{content:"";color:#333;font-family:yofont;font-size:.5rem}
+.yo-loading-a{background-color:rgba(255,255,255,0)}
+.yo-loading-a>.inner>.yo-ico::before{font-size:.2rem}
+.yo-loading-a span{color:pink}
 div#wrapNew{width:100%;height:100%;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column;background:#fff}
 div#wrapNew div.head{width:100%;height:.42rem;position:relative}
 div#wrapNew div.head div.newHeader{width:100%;height:.44rem;background-image:-webkit-linear-gradientrgba(0,0,0,0.2),transparent;background-image:linear-gradient(rgba(0,0,0,0.6),transparent);position:absolute;top:0}
@@ -1122,7 +1138,7 @@ div#wrapNew div.con-img{width:100%;background:#fff}
 div#wrapNew div.con-img h3{width:100%;height:.41rem;padding:0 .18rem;-webkit-box-sizing:border-box;box-sizing:border-box;font-size:.12rem;line-height:.41rem;color:#5f5f5f;font-weight:100}
 div#wrapNew div.con-img div#img-cen{width:100%;height:100%!important;padding:0 .18rem;-webkit-box-sizing:border-box;box-sizing:border-box}
 div#wrapNew div.con-img div#img-cen img{width:100%;margin-bottom:.05rem}
-div#wrapNew div.newFooter{width:100%;height:.44rem;background:#fff}
+div#wrapNew div.newFooter{display:none;width:100%;height:.44rem;background:#fff}
 div#wrapNew div.newFooter ul#shop{display:-webkit-box;display:-webkit-flex;display:flex;width:100%;height:100%}
 div#wrapNew div.newFooter ul#shop li:first-child{width:1.65rem;line-height:.44rem;text-align:center;font-size:.12rem;color:#575757;position:relative;-webkit-box-sizing:border-box;box-sizing:border-box}
 div#wrapNew div.newFooter ul#shop li:first-child::after{pointer-events:none;position:absolute;z-index:999;top:0;left:0;content:"\0020";border-color:#e1e1e1;border-style:solid;border-width:0 1px 0 0;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transform-origin:0 0;transform-origin:0 0}
@@ -1135,6 +1151,9 @@ div#wrapNew div.newFooter ul#shop li:first-child::after{pointer-events:none;posi
 div#wrapNew div.newFooter ul#shop li:first-child span{color:#ff7385;font-size:.14rem;font-weight:600}
 div#wrapNew div.newFooter ul#shop li:nth-child(2){-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px;line-height:.44rem;text-align:center;color:#575757}
 div#wrapNew div.newFooter ul#shop li:nth-child(3){width:1.05rem;line-height:.44rem;font-size:.14rem;text-align:center;background:#ff7385;color:#fff}
+div#wrapNew .up{display:block!important}
+div#wrapNew #load{top:-33.82rem;bottom:none;background-color:transparent}
+div#wrapNew .newactive{background:rgba(255,255,255,0.4)!important;background-image:none}
 div#wrapDown{width:100%;height:100%;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column;background:#fff}
 div#wrapDown div.downHeader{width:100%;height:.44rem}
 div#wrapDown div.downHeader ul#downName{display:-webkit-box;display:-webkit-flex;display:flex;width:100%;height:100%;position:relative;-webkit-box-sizing:border-box;box-sizing:border-box}
@@ -1156,7 +1175,7 @@ div#wrapDown div.downSection{width:100%;overflow:visible;height:100%;background:
 div#wrapDown div.downSection div.form1{width:100%;height:.9rem;background:#fff;padding:0 .18rem;-webkit-box-sizing:border-box;box-sizing:border-box}
 div#wrapDown div.downSection div.form1 div{width:100%;height:.45rem}
 div#wrapDown div.downSection div.form1 div:first-child{position:relative;-webkit-box-sizing:border-box;box-sizing:border-box}
-div#wrapDown div.downSection div.form1 div:first-child::after{pointer-events:none;position:absolute;z-index:999;top:0;left:0;content:"\0020";border-color:#d7d7d7;border-style:solid;border-width:0 0 1px 0;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transform-origin:0 0;transform-origin:0 0}
+div#wrapDown div.downSection div.form1 div:first-child::after{pointer-events:none;position:absolute;z-index:999;top:0;left:0;content:"\0020";border-color:#d7d7d7;border-style:solid;border-width:0 0 2px 0;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transform-origin:0 0;transform-origin:0 0}
 @media(max--moz-device-pixel-ratio:1.49),(-webkit-max-device-pixel-ratio:1.49),(max-device-pixel-ratio:1.49),(max-resolution:143dpi),(max-resolution:1.49dppx){div#wrapDown div.downSection div.form1 div:first-child::after{width:100%;height:100%}
 }
 @media(min--moz-device-pixel-ratio:1.5) and (max--moz-device-pixel-ratio:2.49),(-webkit-min-device-pixel-ratio:1.5) and (-webkit-max-device-pixel-ratio:2.49),(min-device-pixel-ratio:1.5) and (max-device-pixel-ratio:2.49),(min-resolution:144dpi) and (max-resolution:239dpi),(min-resolution:1.5dppx) and (max-resolution:2.49dppx){div#wrapDown div.downSection div.form1 div:first-child::after{width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5)}

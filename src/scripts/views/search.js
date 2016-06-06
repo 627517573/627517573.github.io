@@ -13,6 +13,7 @@ SPA.defineView('search',{
 	},
 	bindEvents:{
 		'show':function(){
+			var that=this;
 				this.searchSwiper=new Swiper('#search-swiper',{
 					direction: 'horizontal',
 					loop:true,
@@ -24,7 +25,9 @@ SPA.defineView('search',{
 					direction: 'horizontal',
 					onSlideChangeStart: function (swiper) {
 				        $('#index-nav li').eq(swiper.activeIndex).addClass('active-search').siblings().removeClass('active-search');
-				    }
+				        var pScrollTop = that.widgets.indexScroll;
+	    				pScrollTop.scrollTo(0, 0, 0, IScroll.utils.ease.quadratic);
+				   }
 				});
 			}
 	}

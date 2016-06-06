@@ -5,18 +5,45 @@ SPA.defineView('new',{
 		name:'avalon',
 		options:function(vm){
 			vm.livelist3=[];
+			vm.isShowLoading = true;    //loading第一步
 		}
 	}],
 	bindEvents:{
 		'show':function(){
 			var vm=this.getVM();
-			 $.ajax({
-	        	//url: '/api/getlivelist.php',
+			$.ajax({
+	        	// url: '/api/getlivelist.php',
 	        	url:'hunlimao/mock/livelist.json',
 		        success: function (res) {
 		        	vm.livelist3=res.data.gp4;
 		        }
-		    })
+		   	});
+			 
+			var myScroll = this.widgets.searchScroll;
+			var head = $('.newFooter'),topImgHasClass = head.hasClass('up');
+			var y,_y;
+			var _height=$(".big").height();
+			myScroll.on('scroll', function () {
+				
+				  y1=this.y;
+		          y = Math.abs(this.y);
+		          //console.log(y);
+		          if (y <= _y) {
+		              head.addClass('up');
+		              return '';
+		          }
+		          if (y >= _y) {
+		              head.removeClass('up');
+		              return '';
+		          }
+//		          if(y < 600){
+//		          	$(".big").height($(".big").height()+y1%1.5);
+//		          }
+		      });
+		      myScroll.on('scrollEnd', function () {
+		          _y = Math.abs(this.y);
+		      });
+		      myScroll.refresh();
 		}
 	},
 	bindActions:{
@@ -25,28 +52,6 @@ SPA.defineView('new',{
 		},
 		'downOpen':function(){
 			SPA.open('down');
-		},
-		'touch':function(){
-			var _startclientY;
-			var _endclientY;
-			var _cha;
-//			window.addEventListener('touchstart',function(ev){
-//				alert(1);
-//				_startclientY=parseInt(ev.targetTouches[0].clientY);
-//				this.addEventListener('touchmove',function(evv){
-//					console.log(evv);
-//				},false);
-//				
-//			},false);
-//			on('touchstart',function(ev){
-//				_startclientY=parseInt(ev.targetTouches[0].clientY);
-//				$('section').on('touchmove',function(qev){
-//					console.log(qev)
-//				});
-//			});
-			
-			//_cha=_endclientY-_startclientY;
-			
 		}
 	}
 	

@@ -1,3 +1,13 @@
+@import "../../lib/element/yo-loading";
+@include yo-loading(
+    $name:a,
+    $mask-bgcolor:rgba(255,255,255,0),
+    $ico-size:.2rem
+){
+    span{
+        color:pink;
+    }
+};
 div#wrapNew{
     width:100%;
     height:100%;
@@ -389,6 +399,7 @@ div#wrapNew{
            }
        }
        div.newFooter{
+           display: none;
            width:100%;
            height:.44rem;
            background: #fff;
@@ -425,5 +436,17 @@ div#wrapNew{
                     color:#fff;
                 }
             }
+       }
+       .up{
+           display: block !important;
+       }
+       #load{
+           top:-33.82rem;
+           bottom:none;
+           background-color: rgba(0,0,0,0);
+       }
+       .newactive{
+           background: rgba(255,255,255,.4) !important;
+           background-image:none;
        }
 }

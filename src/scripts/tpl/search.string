@@ -26,9 +26,9 @@
 	  </ul>
 	</nav>
 	<!--section-->
-	<section spa-widget="scroll">
+	<section spa-widget="scroll" data-scroll-id="indexScroll">
 		<div>
-			<div class="swiper-container" id="wrap-swiper">
+			<div class="swiper-container" id="wrap-swiper" >
 				<div class="swiper-wrapper">
 			    	<div class="swiper-slide" id="wrap3" >
 				        <div>
