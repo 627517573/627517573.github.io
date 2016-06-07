@@ -15,6 +15,9 @@ SPA.defineView('new',{
 	        	url:'hunlimao/mock/livelist.json',
 		        success: function (res) {
 		        	vm.livelist3=res.data.gp4;
+		        	setTimeout(function(){
+						myScroll.refresh();
+					},500);
 		        }
 		   	});
 			 
