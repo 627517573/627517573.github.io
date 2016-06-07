@@ -1,4 +1,5 @@
 var newsTpl = require('../tpl/new.string');
+
 SPA.defineView('new',{
 	html:newsTpl,
 	plugins:['delegated',{
@@ -15,9 +16,9 @@ SPA.defineView('new',{
 	        	url:'hunlimao/mock/livelist.json',
 		        success: function (res) {
 		        	vm.livelist3=res.data.gp4;
-		        	setTimeout(function(){
-						myScroll.refresh();
-					},3000);
+		        	window.onload=function(){
+		        		myScroll.refresh();
+		        	}
 		        }
 		   	});
 			 
