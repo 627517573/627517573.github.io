@@ -42,7 +42,13 @@ SPA.defineView('new',{
 		      myScroll.on('scrollEnd', function () {
 		          _y = Math.abs(this.y);
 		      });
-		      myScroll.refresh();
+		      
+		},
+		'read':function(){
+			setTimeout(function(){
+				this.widgets.scrollNew1.refresh();
+			},3000);
+			
 		}
 	},
 	bindActions:{
