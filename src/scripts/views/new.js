@@ -45,6 +45,7 @@ SPA.defineView('new',{
 		      });
 		      myScroll.on('scrollEnd', function () {
 		          _y = Math.abs(this.y);
+		          myScroll.refresh();
 		      });
 		      
 		},
