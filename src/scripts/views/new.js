@@ -17,7 +17,7 @@ SPA.defineView('new',{
 		        	vm.livelist3=res.data.gp4;
 		        	setTimeout(function(){
 						myScroll.refresh();
-					},500);
+					},3000);
 		        }
 		   	});
 			 
