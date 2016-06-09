@@ -48,9 +48,13 @@ SPA.defineView('home',{
 		}
 	},
 	bindActions:{
-		'newsblu':function(){
-			SPA.open('new');
-		}
+		'goto.detail': function (e, data) {
+	      SPA.open('new', {
+	        param: {
+	          id: data.id
+	        }
+	      });
+	    }
 	}
 
 })

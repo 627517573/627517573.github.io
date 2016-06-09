@@ -1,0 +1,35 @@
+{
+  "ret": true,
+  "errCode": 0,
+  "data":{
+    	"gn1":[
+    			{
+			  		"src":"/hunlimao/images/c1.gif"
+			    },
+			    {
+			  		"src":"/hunlimao/images/c2.gif"
+			    },
+			    {
+			  		"src":"/hunlimao/images/c3.gif"
+			    },
+			    {
+			  		"src":"/hunlimao/images/c4.gif"
+			    },
+			    {
+			  		"src":"/hunlimao/images/c5.gif"
+			    }
+    	]	,
+    	"gn2":[
+    			{
+    				"title":"丽江站预售特惠",
+    				"price":" ￥6999  ",
+    				"yprice":"8999",
+    				"amount":"49",
+    				"msg":"雪山远景",
+    				"address":"丽江市玉龙纳西族自治县15公里处",
+    				"src":"/hunlimao/images/lili.gif",
+    				"src1":"/hunlimao/images/li.png"
+    			}
+    	]
+  }
+}

@@ -5,17 +5,24 @@ SPA.defineView('new',{
 	plugins:['delegated',{
 		name:'avalon',
 		options:function(vm){
-			vm.livelist3=[];
-			vm.isShowLoading = true;    //loading第一步
+			vm.detail=[];
+			vm.detail1=[];
 		}
 	}],
 	bindEvents:{
 		'show':function(){
 			var vm=this.getVM();
+			var that = this;
 			$.ajax({
-	        	url:'hunlimao/mock/livelist.json',
+	        	url:"'hunlimao/mock/detail-"+that.param.id+".json'",
+	        	//url: '/api/getDetail.php',
+	        	data: {
+		          id: that.param.id
+		        },
 		        success: function (res) {
-		        	vm.livelist3=res.data.gp4;
+		        	console.log(res);
+		        	vm.detail = res.data.gn1;
+		        	vm.detail1 = res.data.gn2;
 		        	window.onload=function(){
 		        		myScroll.refresh();
 		        	}

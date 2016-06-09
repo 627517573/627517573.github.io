@@ -1,0 +1,56 @@
+{
+  "ret": true,
+  "errCode": 0,
+  "data":{
+    	"gn1":[
+    			{
+			  		"src":"/hunlimao/images/r1.gif"
+			    },
+			    {
+			  		"src":"/hunlimao/images/r2.gif"
+			    },
+			    {
+			  		"src":"/hunlimao/images/r3.gif"
+			    },
+			    {
+			  		"src":"/hunlimao/images/r4.gif"
+			    },
+			    {
+			  		"src":"/hunlimao/images/r5.gif"
+			    },
+			    {
+			  		"src":"/hunlimao/images/r6.gif"
+			    },
+			    {
+			  		"src":"/hunlimao/images/r7.gif"
+			    },
+			    {
+			  		"src":"/hunlimao/images/r8.gif"
+			    },
+			    {
+			  		"src":"/hunlimao/images/r9.gif"
+			    },
+			    {
+			  		"src":"/hunlimao/images/r10.gif"
+			    },
+			    {
+			  		"src":"/hunlimao/images/r11.gif"
+			    },
+			    {
+			  		"src":"/hunlimao/images/r12.gif"
+			    }
+    	]	,
+    	"gn2":[
+    			{
+    				"title":"韩式主题活动",
+    				"price":" ￥5999",
+    				"yprice":"6699",
+    				"amount":"51",
+    				"msg":"韩式摄影基地",
+    				"address":"白云区",
+    				"src":"/hunlimao/images/huihui.gif",
+    				"src1":"/hunlimao/images/12.png"
+    			}
+    	]
+  }
+}
