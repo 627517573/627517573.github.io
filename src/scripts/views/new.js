@@ -14,7 +14,7 @@ SPA.defineView('new',{
 			var vm=this.getVM();
 			var that = this;
 			$.ajax({
-	        	url:"'hunlimao/mock/detail-"+that.param.id+".json'",
+	        	url:'hunlimao/mock/detail.json',
 	        	//url: '/api/getDetail.php',
 	        	data: {
 		          id: that.param.id
