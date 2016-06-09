@@ -80,19 +80,45 @@
 					</ul>
 					<div class="scroll" spa-widget="scroll" data-scroll-id="indexScroll">	   
 						<div>
-							<div ms-repeat-value="livelist" action-type='goto.detail' ms-attr-data-id="value.id">
+							<div ms-repeat-value="livelist" action-type='newsblu'>
 								<ul>
 									<li ms-text="value.title">
-										赫拉恋城
+										
 									</li>
 									<li ms-text="value.msg">
-										仅剩18套
+										
 									</li>
 									<li>
 										<i>￥</i><b ms-text="value.price">4999</b>
 									</li>
 								</ul>
-					       </div>
+					        </div>
+					        <!--<div>
+								<ul>
+									<li>
+										赫拉恋城
+									</li>
+									<li>
+										仅剩18套
+									</li>
+									<li>
+										<i>￥</i><b>4999</b>
+									</li>
+								</ul>
+					        </div>
+					        <div>
+								<ul>
+									<li>
+										赫拉恋城
+									</li>
+									<li>
+										仅剩18套
+									</li>
+									<li>
+										<i>￥</i><b>4999</b>
+									</li>
+								</ul>
+					        </div>-->
 						</div>
 					        
 					</div>

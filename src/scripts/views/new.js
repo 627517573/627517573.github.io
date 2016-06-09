@@ -1,28 +1,21 @@
-var newsTpl = require('../tpl/new.string');
-
+﻿var newsTpl = require('../tpl/new.string');
 SPA.defineView('new',{
 	html:newsTpl,
 	plugins:['delegated',{
 		name:'avalon',
 		options:function(vm){
-			vm.detail=[];
-			vm.detail1=[];
+			vm.livelist3=[];
+			vm.isShowLoading = true;    //loading第一步
 		}
 	}],
 	bindEvents:{
 		'show':function(){
 			var vm=this.getVM();
-			var that = this;
 			$.ajax({
-	        	url:'hunlimao/mock/detail.json',
-	        	//url: '/api/getDetail.php',
-	        	data: {
-		          id: that.param.id
-		        },
+	        	//url: '/api/getlivelist.php',
+			url: 'hunlimao/mock/livelist.json',
 		        success: function (res) {
-		        	console.log(res);
-		        	vm.detail = res.data.gn1;
-		        	vm.detail1 = res.data.gn2;
+		        	vm.livelist3=res.data.gp4;
 		        	window.onload=function(){
 		        		myScroll.refresh();
 		        	}
@@ -54,7 +47,7 @@ SPA.defineView('new',{
 		          _y = Math.abs(this.y);
 		          myScroll.refresh();
 		      });
-		      
+		     
 		},
 		'read':function(){
 			setTimeout(function(){

@@ -41,7 +41,27 @@ section{
             height:100%;
             div{
                 &#wrap3{
+                    
                     overflow: hidden;
+                    .headshua {
+                        height: .3rem;
+                        @include flexbox();
+                        @include align-items(center);
+                        @include justify-content(center);
+                    }
+                    .headshua img {
+                        width: .14rem;
+                        height: .14rem;
+                        display: inline-block;
+                        transform: rotate(180deg);
+                        -webkit-transform: rotate(180deg);
+                        transition: transform 150ms;
+                        -webkit-transition: transform 150ms;
+                    }
+                    .up {
+                        transform: rotate(360deg) !important;
+                        -webkit-transform: rotate(360deg) !important;
+                    }
                     div#search-swiper{
                         width:100%;
                         height:1.49rem;
