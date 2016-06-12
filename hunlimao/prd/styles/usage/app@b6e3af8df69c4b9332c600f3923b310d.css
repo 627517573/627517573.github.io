@@ -992,9 +992,6 @@ nav ul li{-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px;height:100%;text-a
 nav ul li.active-search{color:#ff586d;border-bottom:solid .02rem #ff586d}
 section div#wrap-swiper{width:100%;height:100%}
 section div#wrap-swiper div#wrap3{overflow:hidden}
-section div#wrap-swiper div#wrap3 .headshua{height:.3rem;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center}
-section div#wrap-swiper div#wrap3 .headshua img{width:.14rem;height:.14rem;display:inline-block;transform:rotate(180deg);-webkit-transform:rotate(180deg);transition:transform 150ms;-webkit-transition:transform 150ms}
-section div#wrap-swiper div#wrap3 .up{transform:rotate(360deg)!important;-webkit-transform:rotate(360deg)!important}
 section div#wrap-swiper div#wrap3 div#search-swiper{width:100%;height:1.49rem;margin-bottom:.09rem}
 section div#wrap-swiper div#wrap3 div#search-swiper img{width:100%;height:100%}
 section div#wrap-swiper div#wrap3 div#search-swiper .swiper-pagination-bullet{width:.06rem;height:.06rem;display:inline-block;background:#fff;border-radius:50%;-webkit-background-clip:padding-box!important;background-clip:padding-box!important;opacity:1}

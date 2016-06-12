@@ -1,4 +1,4 @@
-﻿var homeTpl=require('../tpl/home.string');
+var homeTpl=require('../tpl/home.string');
 SPA.defineView('home',{
 	html:homeTpl,
 	plugins:['delegated',{
@@ -22,7 +22,7 @@ SPA.defineView('home',{
 			var vm=this.getVM();
 			 $.ajax({
 	        	//url: '/api/getlivelist.php',
-			url: 'hunlimao/mock/livelist.json',
+	        	url:'hunlimao/mock/livelist.json',
 		        success: function (res) {
 		        	vm.livelist=res.data.gp1;
 		        	vm.livelist1=res.data.gp2;
@@ -48,9 +48,13 @@ SPA.defineView('home',{
 		}
 	},
 	bindActions:{
-		'newsblu':function(){
-			SPA.open('new');
-		}
+		'goto.detail': function (e, data) {
+	      SPA.open('new', {
+	        param: {
+	          id: data.id
+	        }
+	      });
+	    }
 	}
 
 })

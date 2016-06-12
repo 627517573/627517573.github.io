@@ -1,23 +1,36 @@
-﻿var newsTpl = require('../tpl/new.string');
+var newsTpl = require('../tpl/new.string');
+
 SPA.defineView('new',{
 	html:newsTpl,
 	plugins:['delegated',{
 		name:'avalon',
 		options:function(vm){
-			vm.livelist3=[];
-			vm.isShowLoading = true;    //loading第一步
+			vm.detail=[];
+			vm.detail1=[];
 		}
 	}],
 	bindEvents:{
 		'show':function(){
 			var vm=this.getVM();
+			var that = this;
 			$.ajax({
-	        	//url: '/api/getlivelist.php',
-			url: 'hunlimao/mock/livelist.json',
+	        	url:'hunlimao/mock/livelist2.json',
+	        	data: {
+		          id: that.param.id
+		        },
 		        success: function (res) {
-		        	vm.livelist3=res.data.gp4;
 		        	window.onload=function(){
 		        		myScroll.refresh();
+		        	}
+		        	if(that.param.id==1){
+		        		vm.detail=res.data.classify[0].gn1;
+		        		vm.detail1=res.data.classify[0].gn2;
+		        	}else if(that.param.id==2){
+		        		vm.detail=res.data.classify[1].gn1;
+		        		vm.detail1=res.data.classify[1].gn2;
+		        	}else if(that.param.id==3){
+		        		vm.detail=res.data.classify[2].gn1;
+		        		vm.detail1=res.data.classify[2].gn2;
 		        	}
 		        }
 		   	});
@@ -47,7 +60,7 @@ SPA.defineView('new',{
 		          _y = Math.abs(this.y);
 		          myScroll.refresh();
 		      });
-		     
+		      
 		},
 		'read':function(){
 			setTimeout(function(){

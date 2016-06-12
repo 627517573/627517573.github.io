@@ -19,23 +19,23 @@
 					</li>
 				</ul>
 			</div>
-			<div class="big">
-				<img src="/hunlimao/images/helas.png" />
+			<div class="big" ms-repeat-value="detail1" >
+				<img ms-src="value.src1"/>
 			</div>
 		</div>
 		<div class="a-new" spa-widget="scroll" data-scroll-id="searchScroll">
 			<div>
 				<div class="m-new">
-					<div class="helac">
-						<img src="/hunlimao/images/yang.png" />
+					<div class="helac" ms-repeat-value="detail1" >
+						<img ms-src="value.src"/>
 					</div>
-					<div id="hela-bot">
-						<h3>赫拉恋城</h3>
+					<div id="hela-bot" ms-repeat-value="detail1" >
+						<h3 ms-text="value.title"></h3>
 						<ul>
-							<li>&nbsp;￥4999&nbsp;&nbsp;</li>
-							<li>29&nbsp;人购买</li>
+							<li ms-text="value.price"></li>
+							<li><span ms-text="value.amount"></span>&nbsp;人购买</li>
 						</ul>
-						<p>￥5299</p>
+						<p ms-text="value.yprice"></p>
 						<div class="money">
 							资金担保
 						</div>
@@ -84,14 +84,14 @@
 					<div class="c-con">
 						<div></div>
 						<div>景点</div>
-						<div>
+						<div ms-repeat-value="detail1" >
 							<ul class="ms">
 								<li>拼车出行</li>
 								<li>四季可拍</li>
 								<li></li>
 							</ul>
-							<p class="city">赫拉恋城</p>
-							<p class="city1">深圳市&nbsp;玫瑰小镇</p>
+							<p class="city" ms-text="value.msg"></p>
+							<p class="city1" ms-text="value.address"></p>
 						</div>
 					</div>
 				</div>
@@ -134,11 +134,11 @@
 					<h3>
 						案例欣赏
 					</h3>
-					<div id="img-cen" data-scroll-id="indexScroll">
+					<div id="img-cen"  data-scroll-id="indexScroll">
 						<!--<div class="yo-loading yo-loading-a">-->
 <!--						    <div class="inner"><i class="yo-ico"></i><span>加载中...</span></div>
 -->						<!--</div>-->
-						<img ms-repeat-value="livelist3"  ms-src="value.src"/>
+						<img ms-repeat-value="detail"  ms-src="value.src"/>
 					</div>
 				</div>
 				
@@ -146,8 +146,8 @@
 		</div>
 		<div class="newFooter">
 			<ul id="shop">
-				<li>
-					套餐价<span>￥4999</span>
+				<li ms-repeat-value="detail1">
+					套餐价<span ms-text="value.price"></span>
 				</li>
 				<li>
 					在线咨询
